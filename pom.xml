@@ -24,6 +24,10 @@
                 <version>5.5.0</version>
                 <configuration>
                     <projectFile>CountryInfoService-soapui-project.xml</projectFile>
+                         <testFailIgnore>true</testFailIgnore>    
+                         <junitReport>true</junitReport>
+                         <outputFolder>test-reports</outputFolder>
+                         <printReport>true</printReport>
                     <projectProperties>
                         <value>message=Hello World!</value>
                     </projectProperties>
