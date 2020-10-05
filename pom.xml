@@ -23,7 +23,7 @@
                 <artifactId>soapui-maven-plugin</artifactId>
                 <version>5.5.0</version>
                 <configuration>
-                    <projectFile>calculator-soapui-project.xml</projectFile>
+                    <projectFile>CountryInfoService-soapui-project.xml</projectFile>
                     <projectProperties>
                         <value>message=Hello World!</value>
                     </projectProperties>
